@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto', sans-serif";
+  background: #ebebeb;
+}
+
+.form-container {
+  background: white;
+  margin: 150px auto;
+  width: 400px;
+}
+
+form {
+  padding: 20px;
+}
+
+form h3 {
+  text-align: center;
+}
+
+form .input-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+form .input-container input,
+input[type='submit'] {
+  width: 100%;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+form input[type='submit'] {
+  border: 0;
+  color: white;
+  background: red;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+form .input-container input {
+  border: 1px solid #e4e4e4;
+  color: #818181;
+  padding: 0 55px 0 25px;
+}
+
+form .input-container input::placeholder {
+  color: #818181;
+}
+
+form .input-container svg {
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 12px);
+  color: #818181;
+}
+
+.options-container {
+  padding: 0 20px;
+  margin: 25px auto;
+  color: #818181;
+}
+
+.options-container .checkbox-container,.options-container a {
+  display: inline-block;
+  width: 50%;
+}
+
+a {
+  color: red;
+  text-align: right;
+  text-decoration: none;
+}
+
+form p {
+  color: #818181;
+  text-align: center;
+}
+
+form .social-media-container {
+  margin: 20px auto;
+  width: fit-content;
+}
+
+form .social-media-container .icon-container {
+  background: #375c98;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+form .social-media-container .icon-container:nth-child(2) {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  
+}
+
+form .social-media-container .icon-container:nth-child(3) {
+  background: #4dadf2;
+}
+form .social-media-container .icon-container:nth-child(4) {
+  background: #c54f33;
+}
+
+form .social-media-container .icon-container svg {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  color: white;
+}
+
+hr{
+  color: #818181;
+  margin: 20px auto
+}
+
+.footer{
+  width: fit-content;
+  margin: 20px auto;
+}
